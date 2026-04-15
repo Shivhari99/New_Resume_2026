@@ -14,14 +14,14 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
             min-height: 100vh;
             padding: 40px 20px;
         }
 
         .container {
-            max-width: 850px;
+            max-width: 800px;
             margin: 0 auto;
         }
 
@@ -33,65 +33,56 @@
         }
 
         button {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 12px 24px;
-            font-size: 16px;
+            padding: 10px 20px;
+            font-size: 14px;
             font-weight: 600;
             border: none;
-            border-radius: 8px;
+            border-radius: 5px;
             cursor: pointer;
+            background: #2563eb;
+            color: white;
             transition: all 0.3s ease;
         }
 
-        .btn-download {
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-            color: white;
-            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
-        }
-
-        .btn-download:hover {
+        button:hover {
+            background: #1d4ed8;
             transform: translateY(-2px);
-            box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
         }
 
         .resume-content {
             background: white;
-            color: #1f2937;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            font-size: 10.5pt;
-            line-height: 1.3;
+            color: #000;
+            padding: 16px;
+            border-radius: 3px;
+            font-size: 9.5pt;
+            line-height: 1.25;
         }
 
         .header {
             text-align: center;
-            border-bottom: 2px solid #000;
-            padding-bottom: 8px;
-            margin-bottom: 10px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 6px;
+            margin-bottom: 8px;
         }
 
         .header h1 {
-            font-size: 22pt;
+            font-size: 18pt;
             font-weight: 700;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
 
         .header .title {
-            font-size: 11pt;
-            color: #444;
-            margin-bottom: 6px;
+            font-size: 10pt;
+            margin-bottom: 4px;
         }
 
         .contact-info {
             display: flex;
             justify-content: center;
-            gap: 12px;
+            gap: 10px;
             flex-wrap: wrap;
-            font-size: 9pt;
-            margin-bottom: 6px;
+            font-size: 8.5pt;
+            margin-bottom: 4px;
         }
 
         .contact-link a {
@@ -99,128 +90,115 @@
             text-decoration: none;
         }
 
-        .contact-link a:hover {
-            text-decoration: underline;
-        }
-
         .section {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .section-title {
-            font-size: 11pt;
+            font-size: 10pt;
             font-weight: 700;
             border-bottom: 1px solid #000;
-            padding-bottom: 3px;
-            margin-bottom: 6px;
+            padding-bottom: 2px;
+            margin-bottom: 4px;
         }
 
         .summary-text {
-            font-size: 9.5pt;
+            font-size: 9pt;
             text-align: justify;
-            line-height: 1.4;
-            color: #333;
+            line-height: 1.3;
         }
 
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 4px;
-            font-size: 9pt;
+            gap: 2px;
+            font-size: 8.5pt;
         }
 
         .skill-item::before {
             content: "• ";
             color: #0066cc;
-            font-weight: bold;
         }
 
         .job {
-            margin-bottom: 8px;
-            page-break-inside: avoid;
+            margin-bottom: 6px;
         }
 
         .job-header {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
 
         .job-title {
             font-weight: 700;
-            font-size: 10pt;
+            font-size: 9.5pt;
         }
 
         .job-company {
-            color: #555;
-            font-size: 9pt;
+            font-size: 8.5pt;
         }
 
         .job-date {
-            font-size: 9pt;
-            color: #666;
+            font-size: 8.5pt;
+            color: #555;
         }
 
         .job-description {
-            font-size: 9pt;
-            color: #444;
-            margin-top: 2px;
-            margin-left: 8px;
+            font-size: 8.5pt;
+            margin-top: 1px;
+            margin-left: 6px;
         }
 
         .education-item {
-            margin-bottom: 6px;
+            margin-bottom: 4px;
         }
 
         .education-degree {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 1px;
         }
 
         .degree-name {
             font-weight: 700;
-            font-size: 10pt;
+            font-size: 9pt;
         }
 
         .degree-year {
-            font-size: 9pt;
-            color: #666;
+            font-size: 8.5pt;
+            color: #555;
         }
 
         .degree-school {
-            font-size: 9pt;
-            color: #555;
+            font-size: 8.5pt;
         }
 
         .two-column {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 12px;
+            gap: 10px;
         }
 
         .patent-list {
-            font-size: 9pt;
-            line-height: 1.4;
-            color: #333;
-            margin-left: 8px;
+            font-size: 8.5pt;
+            line-height: 1.3;
+            margin-left: 6px;
         }
 
         .patent-list li {
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
 
         .cert-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4px;
-            font-size: 9pt;
+            gap: 2px;
+            font-size: 8.5pt;
         }
 
         .cert-item::before {
             content: "✓ ";
             color: #059669;
-            font-weight: bold;
         }
 
         @media print {
@@ -233,7 +211,7 @@
             }
             .resume-content {
                 box-shadow: none;
-                padding: 15px;
+                border-radius: 0;
             }
         }
     </style>
@@ -241,102 +219,77 @@
 <body>
     <div class="container">
         <div class="button-container">
-            <button class="btn-download" onclick="downloadPDF()">
-                ⬇️ Download PDF
-            </button>
+            <button onclick="downloadPDF()">⬇️ Download PDF (Compressed)</button>
         </div>
 
         <div class="resume-content" id="resumeContent">
             <div class="header">
                 <h1>SHIVHARI TEWARI</h1>
-                <p class="title">Assistant Professor | Machine Learning Engineer & Data Analyst</p>
+                <p class="title">Assistant Professor | ML Engineer & Data Analyst | PhD Machine Learning</p>
                 <div class="contact-info">
-                    <span>📞 +91 9971165439</span>
-                    <span>📧 tewarishivhari999@gmail.com</span>
-                    <span>📍 Lucknow, India</span>
+                    <span>📞 +91-9971165439 | 📧 tewarishivhari999@gmail.com | 📍 Lucknow, India</span>
                 </div>
                 <div class="contact-info">
-                    <span class="contact-link">🔗 <a href="https://www.linkedin.com/in/shivhari-tewari-19702712a/" target="_blank">LinkedIn</a></span>
-                    <span class="contact-link">🔗 <a href="https://scholar.google.com/citations?user=MiF3TfQAAAAJ&hl=en" target="_blank">Google Scholar</a></span>
-                    <span class="contact-link">🔗 <a href="https://www.researchgate.net/profile/Shiv-Hari-Tewari/research" target="_blank">ResearchGate</a></span>
+                    <span><a href="https://www.linkedin.com/in/shivhari-tewari-19702712a/">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=MiF3TfQAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shiv-Hari-Tewari/research">ResearchGate</a></span>
                 </div>
             </div>
 
             <div class="section">
-                <h2 class="section-title">PROFESSIONAL SUMMARY</h2>
-                <p class="summary-text">Dynamic Machine Learning Engineer and Data Analyst with expertise in AI, deep learning, and data-driven solutions. PhD in Machine Learning from IIIT Allahabad with proven track record at McKinsey & Company. Proficient in Python, advanced ML algorithms, and modern technologies. Combining academic excellence with industry experience to develop innovative solutions.</p>
+                <h2 class="section-title">SUMMARY</h2>
+                <p class="summary-text">PhD in Machine Learning (IIIT Allahabad). Expert in Generative AI, Deep Learning, Python, and Data Science. Experience at McKinsey & Company. Currently Assistant Professor at Chandigarh University and UPES. 7+ publications and 2 patents in AI/ML.</p>
             </div>
 
             <div class="section">
-                <h2 class="section-title">TOP SKILLS</h2>
+                <h2 class="section-title">SKILLS</h2>
                 <div class="skills-grid">
-                    <div class="skill-item">Generative AI Tools</div>
-                    <div class="skill-item">Python Programming</div>
+                    <div class="skill-item">Generative AI</div>
+                    <div class="skill-item">Python</div>
                     <div class="skill-item">Machine Learning</div>
                     <div class="skill-item">Deep Learning</div>
                     <div class="skill-item">Data Analysis</div>
                     <div class="skill-item">Neural Networks</div>
-                    <div class="skill-item">SQL & Databases</div>
-                    <div class="skill-item">Linux Systems</div>
-                    <div class="skill-item">Java Enterprise Edition</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">Linux</div>
+                    <div class="skill-item">Java EE</div>
                 </div>
             </div>
 
             <div class="section">
-                <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+                <h2 class="section-title">EXPERIENCE</h2>
                 <div class="job">
                     <div class="job-header">
-                        <div>
-                            <div class="job-title">Assistant Professor</div>
-                            <div class="job-company">Chandigarh University, Lucknow Campus</div>
-                        </div>
-                        <div class="job-date">Aug 2025 - Present</div>
+                        <div><span class="job-title">Assistant Professor</span> <span class="job-company">| Chandigarh University</span></div>
+                        <span class="job-date">Aug 2025-Present</span>
                     </div>
-                    <div class="job-description">Python Programming, NLP, Machine Learning. Training on Spacy, NLTK, HMM, Naive Bayes, SVM. Generative AI research.</div>
+                    <div class="job-description">Python, NLP, ML. Training on Spacy, NLTK, HMM, SVM. Generative AI research.</div>
                 </div>
-
                 <div class="job">
                     <div class="job-header">
-                        <div>
-                            <div class="job-title">Assistant Professor</div>
-                            <div class="job-company">University of Petroleum and Energy Studies, Dehradun</div>
-                        </div>
-                        <div class="job-date">Aug 2025 - Present</div>
+                        <div><span class="job-title">Assistant Professor</span> <span class="job-company">| UPES, Dehradun</span></div>
+                        <span class="job-date">Aug 2025-Present</span>
                     </div>
-                    <div class="job-description">Python Programming, Java EE, Machine Learning. Generative AI and EDA research. Workshops on Deep Learning.</div>
+                    <div class="job-description">Python, Java EE, ML. Generative AI, EDA research. Deep Learning workshops.</div>
                 </div>
-
                 <div class="job">
                     <div class="job-header">
-                        <div>
-                            <div class="job-title">Assistant Professor</div>
-                            <div class="job-company">Sunstone Education Technology, Gurugram</div>
-                        </div>
-                        <div class="job-date">Aug 2023 - Aug 2025</div>
+                        <div><span class="job-title">Assistant Professor</span> <span class="job-company">| Sunstone Education</span></div>
+                        <span class="job-date">Aug 2023-Aug 2025</span>
                     </div>
                     <div class="job-description">Curriculum development, student mentoring in emerging technologies.</div>
                 </div>
-
                 <div class="job">
                     <div class="job-header">
-                        <div>
-                            <div class="job-title">Senior Python Developer</div>
-                            <div class="job-company">24/7 Infowiz Tech, Jaipur</div>
-                        </div>
-                        <div class="job-date">Dec 2021 - Dec 2022</div>
+                        <div><span class="job-title">Senior Python Developer</span> <span class="job-company">| 24/7 Infowiz Tech</span></div>
+                        <span class="job-date">Dec 2021-Dec 2022</span>
                     </div>
-                    <div class="job-description">Pfizer SDTMIG tools development. GUI and Django web applications.</div>
+                    <div class="job-description">Pfizer SDTMIG tools, Django web apps, GUI development.</div>
                 </div>
-
                 <div class="job">
                     <div class="job-header">
-                        <div>
-                            <div class="job-title">Data Analyst</div>
-                            <div class="job-company">McKinsey & Company, Gurugram</div>
-                        </div>
-                        <div class="job-date">Dec 2020 - Nov 2021</div>
+                        <div><span class="job-title">Data Analyst</span> <span class="job-company">| McKinsey & Company</span></div>
+                        <span class="job-date">Dec 2020-Nov 2021</span>
                     </div>
-                    <div class="job-description">Data analysis, modeling, predictions. Business intelligence optimization.</div>
+                    <div class="job-description">Data analysis, modeling, predictions, BI optimization.</div>
                 </div>
             </div>
 
@@ -344,21 +297,21 @@
                 <h2 class="section-title">EDUCATION</h2>
                 <div class="education-item">
                     <div class="education-degree">
-                        <span class="degree-name">Doctor of Philosophy - Machine Learning</span>
+                        <span class="degree-name">PhD - Machine Learning</span>
                         <span class="degree-year">2023</span>
                     </div>
                     <div class="degree-school">IIIT Allahabad</div>
                 </div>
                 <div class="education-item">
                     <div class="education-degree">
-                        <span class="degree-name">Master of Technology - Computer Science</span>
+                        <span class="degree-name">M.Tech - Computer Science</span>
                         <span class="degree-year">2019-2021</span>
                     </div>
                     <div class="degree-school">Birla Institute of Technology, Mesra</div>
                 </div>
                 <div class="education-item">
                     <div class="education-degree">
-                        <span class="degree-name">Bachelor of Technology - CSE</span>
+                        <span class="degree-name">B.Tech - CSE</span>
                         <span class="degree-year">2014-2018</span>
                     </div>
                     <div class="degree-school">GL Bajaj Institute of Technology</div>
@@ -367,34 +320,33 @@
 
             <div class="two-column">
                 <div class="section">
-                    <h2 class="section-title">PATENTS</h2>
+                    <h2 class="section-title">PATENTS (2)</h2>
                     <ul class="patent-list">
-                        <li>AI Dialogue Systems for English Language Learning in Universities (2023)</li>
-                        <li>AI-Based Sterilization and Disinfectant Robot (2023)</li>
+                        <li>AI Dialogue Systems for English Language Learning - 2023</li>
+                        <li>AI Sterilization and Disinfectant Robot - 2023</li>
                     </ul>
                 </div>
-
                 <div class="section">
                     <h2 class="section-title">CERTIFICATIONS</h2>
                     <div class="cert-grid">
-                        <div class="cert-item">R Programming for Data Science</div>
-                        <div class="cert-item">Machine Learning using Python</div>
-                        <div class="cert-item">AI using Python</div>
-                        <div class="cert-item">Python for Data Science</div>
+                        <div class="cert-item">R Programming</div>
+                        <div class="cert-item">ML with Python</div>
+                        <div class="cert-item">AI with Python</div>
+                        <div class="cert-item">Python for DS</div>
                     </div>
                 </div>
             </div>
 
             <div class="section">
-                <h2 class="section-title">PUBLICATIONS</h2>
+                <h2 class="section-title">PUBLICATIONS (7)</h2>
                 <ul class="patent-list">
-                    <li>Enhancing Synthetic Data Generation with Fine-Tuned GPT Models for High-Accuracy Predictive Analytics - International Journal of Science, Engineering and Technology (2025)</li>
-                    <li>Enhancing Exploratory Data Analysis through Fine-Tuned Generative AI - International Journal of Science, Engineering and Technology (2025)</li>
-                    <li>Necessity of Data Science for Enhanced Cybersecurity - International Journal of Data Science and Big Data Analytics (2021)</li>
-                    <li>Data Science and Its Application in Cyber Security - Data Science in Cyber Security and Cyber Threat Intelligence (2020)</li>
-                    <li>Ways to Regulate the Abuses of Blockchain and Cryptocurrency Over the Dark Web - International Journal of Blockchain and Cryptocurrency Research, Vol. 3(1), 78-88 (2023) - DOI: 10.51483/IJCCR.3.1.2023.78-88</li>
+                    <li>Enhancing Synthetic Data Generation with Fine-Tuned GPT Models - IJSET (2025)</li>
+                    <li>Enhancing Exploratory Data Analysis through Fine-Tuned Generative AI - IJSET (2025)</li>
+                    <li>Necessity of Data Science for Enhanced Cybersecurity - IJDSBDA (2021)</li>
+                    <li>Data Science and Its Application in Cyber Security (2020)</li>
+                    <li>Ways to Regulate Abuses of Blockchain/Cryptocurrency - IJBCR Vol.3(1):78-88 (2023) DOI: 10.51483/IJCCR.3.1.2023.78-88</li>
                     <li>International Journal of Cryptocurrency Research (2023)</li>
-                    <li>Districtwise Economic Analysis of Sugarcane Farming in Madhya Pradesh using ML - with S Bhowmik</li>
+                    <li>Districtwise Economic Analysis of Sugarcane Farming in ML (with S Bhowmik)</li>
                 </ul>
             </div>
         </div>
@@ -404,31 +356,33 @@
         function downloadPDF() {
             const element = document.getElementById('resumeContent');
             html2canvas(element, {
-                scale: 2,
+                scale: 1.5,
                 useCORS: true,
                 backgroundColor: '#ffffff',
-                logging: false
+                logging: false,
+                allowTaint: true
             }).then(canvas => {
                 const { jsPDF } = window.jspdf;
                 const pdf = new jsPDF({
                     orientation: 'portrait',
                     unit: 'mm',
-                    format: 'a4'
+                    format: 'a4',
+                    compress: true
                 });
 
-                const imgData = canvas.toDataURL('image/png');
+                const imgData = canvas.toDataURL('image/jpeg', 0.75);
                 const imgWidth = 210;
                 const imgHeight = (canvas.height * imgWidth) / canvas.width;
                 let heightLeft = imgHeight;
                 let position = 0;
 
-                pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
                 heightLeft -= 297;
 
                 while (heightLeft > 0) {
                     position = heightLeft - imgHeight;
                     pdf.addPage();
-                    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+                    pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
                     heightLeft -= 297;
                 }
 
